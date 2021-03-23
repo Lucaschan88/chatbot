@@ -14,7 +14,7 @@ from startbot import bot
 app = Flask(__name__)
 loop = asyncio.get_event_loop()
 
-botadaptersettings = BotFrameworkAdapterSettings("","")
+botadaptersettings = BotFrameworkAdapterSettings("bc04e3a3-3d14-4e9b-9f4a-a94c11eadbf5","32b914a3-62e2-49b1-9583-ac801c16b768")
 botadapter = BotFrameworkAdapter(botadaptersettings)
 
 ### calling the class create above
