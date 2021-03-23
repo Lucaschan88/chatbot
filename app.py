@@ -45,18 +45,6 @@ def messages():
 
 if __name__ == "__main__":
     try:
-         [13:49] Rajendra Kishan Gollapalli - Programme Manager
-    
-
-
-APP = web.Application(middlewares=[aiohttp_error_middleware])
-
- 
-APP.router.add_post("/api/messages", messages)
-
- 
-if __name__ == "__main__":
-    try:
         web.run_app(APP, host="localhost", port=CONFIG.PORT)
 
     except 
