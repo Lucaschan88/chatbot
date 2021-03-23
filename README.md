@@ -6,3 +6,6 @@ control of your data in a bank. Build Q&A Bert bot with LUIS using python to dep
 DAA-1020A channel
 
 
+startbot is to initialise the event communications
+
+mainbot is to do the actual processing of the messages
